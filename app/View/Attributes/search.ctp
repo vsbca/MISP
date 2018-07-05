@@ -40,6 +40,14 @@
 					'label' => __('Alternate Search Result (Events)'),
 			));
 		?>
+
+		<?php
+			echo $this->Form->input('AdvanceTrendIntel', array(
+				'type' => 'checkbox',
+				'label' => __('Search in Advance Trend Intel'),
+			));
+		?>
+
 	</fieldset>
 <?php
 echo $this->Form->button('Search', array('class' => 'btn btn-primary'));
