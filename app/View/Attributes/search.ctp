@@ -42,9 +42,9 @@
 		?>
 
 		<?php
-			echo $this->Form->input('AdvanceTrendIntel', array(
+			echo $this->Form->input('AdvanceThreatIntel', array(
 				'type' => 'checkbox',
-				'label' => __('Search in Advance Trend Intel'),
+				'label' => __('Search in Advance Threat Intel'),
 			));
 		?>
 
