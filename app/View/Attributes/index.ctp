@@ -4,7 +4,7 @@
 			if ($isSearch == 1) {
 				// The following block should serve as an example and food
 				// for thought on how to optimize i18n & l10n (especially for languages that are not SOV)
-				echo "<h4>" . __("Results for all attributes");
+				echo "<h4>" . __("Results for all attributes from Local and Advance Threat Intelligence Server");
 				if ($keywordSearch != null) echo __(" with the value containing "). "\"<b>" . h($keywordSearch) . "</b>\"";
 				if ($attributeTags != null) echo __(" being tagged with ") ."\"<b>" . h($attributeTags) . "</b>\"";
 				if ($keywordSearch2 != null) echo __(" from the events ") . "\"<b>" . h($keywordSearch2) . "</b>\"";
