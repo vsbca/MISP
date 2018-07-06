@@ -27,6 +27,8 @@
 							<?php endif; ?>
 							<li><a href="<?php echo $baseurl;?>/attributes/index">List Attributes</a></li>
 							<li><a href="<?php echo $baseurl;?>/attributes/search">Search Attributes</a></li>
+							<li><a href="<?php echo $baseurl;?>/attributes/advancesearch">Search Modules</a></li>
+
 							<li class="divider"></li>
 							<li><a href="<?php echo $baseurl;?>/shadow_attributes/index">View Proposals</a></li>
 							<li><a href="<?php echo $baseurl;?>/events/proposalEventIndex">Events with proposals</a></li>
