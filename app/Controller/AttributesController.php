@@ -1505,6 +1505,7 @@ class AttributesController extends AppController {
 					$org = $this->request->data['Attribute']['org'];
 					$type = $this->request->data['Attribute']['type'];
 					$ioc = $this->request->data['Attribute']['ioc'];
+					$AdvanceThreatIntel = $this->request->data['Attribute']['AdvanceThreatIntel'];
 					$this->set('ioc', $ioc);
 					$category = $this->request->data['Attribute']['category'];
 
@@ -1516,6 +1517,11 @@ class AttributesController extends AppController {
 					if ($ioc) {
 						$conditions['AND'][] = array('Attribute.to_ids =' => 1);
 						$conditions['AND'][] = array('Event.published =' => 1);
+					}
+					//Advance Threat intel search code Changed
+					if(isset($AdvanceThreatIntel)){
+						$output = shell_exec('ping -c1 google.com');
+						echo "<pre>$output</pre>";
 					}
 					// search on the value field
 					if (isset($keyword)) {
