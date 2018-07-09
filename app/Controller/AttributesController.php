@@ -1407,7 +1407,7 @@ class AttributesController extends AppController {
 		$this->set('typeDefinitions', $this->Attribute->typeDefinitions);
 		$this->set('categoryDefinitions', $this->Attribute->categoryDefinitions);
 
-		$fullAddress = '/attributes/advancesearch';
+		$fullAddress = '/attributes/search';
 		// if no search is given, show the search form
 		if ($this->request->here == $fullAddress && !$this->request->is('post')) {
 			// adding filtering by category and type
