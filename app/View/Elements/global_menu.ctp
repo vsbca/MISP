@@ -27,7 +27,7 @@
 							<?php endif; ?>
 							<li><a href="<?php echo $baseurl;?>/attributes/index">List Attributes</a></li>
 							<li><a href="<?php echo $baseurl;?>/attributes/search">Search Attributes</a></li>
-							<li><a href="<?php echo $baseurl;?>/attributes/search">Global Threat Intelligence Search</a></li>
+							<li><a href="<?php echo $baseurl;?>/attributes/advancedsearch">Global Threat Intelligence Search</a></li>
 
 							<li class="divider"></li>
 							<li><a href="<?php echo $baseurl;?>/shadow_attributes/index">View Proposals</a></li>
