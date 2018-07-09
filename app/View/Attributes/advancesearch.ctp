@@ -18,3 +18,11 @@
         </p>
     </body>
 </html>
+<?php
+    echo $this->Form->input('AdvanceThreatIntel', array(
+        'type' => 'textarea',
+        'label' => __('From the Advanced Threat Intelligence search'),
+        'div' => 'input clear',
+        'rows' => 2,
+        'class' => 'input-xxlarge'));
+?>
